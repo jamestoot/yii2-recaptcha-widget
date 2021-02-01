@@ -26,7 +26,7 @@ class ReCaptchaValidator2 extends ReCaptchaBaseValidator
         $secret = null,
         $siteVerifyUrl = null,
         $checkHostName = null,
-        yii\httpclient\Request $httpClientRequest = null,
+        $httpClientRequest = null,
         $config = [])
     {
         if ($secret && !$this->secret) {
